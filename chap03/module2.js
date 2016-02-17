@@ -1,0 +1,7 @@
+var util = require('util');
+
+var A = "a different Value A";
+var B = "a different Value B";
+var m1 = require('./module1');
+
+util.log('A='+A+' B='+B+' values='+util.inspect(m1.values()));
